@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\C#\\ToDo\\ToDo\\ToDo.csproj": {}
+    "E:\\Projects\\C#\\todo-app\\ToDo\\ToDo.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\C#\\ToDo\\ToDo\\ToDo.csproj": {
+    "E:\\Projects\\C#\\todo-app\\ToDo\\ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\C#\\ToDo\\ToDo\\ToDo.csproj",
+        "projectUniqueName": "E:\\Projects\\C#\\todo-app\\ToDo\\ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "E:\\Projects\\C#\\ToDo\\ToDo\\ToDo.csproj",
+        "projectPath": "E:\\Projects\\C#\\todo-app\\ToDo\\ToDo.csproj",
         "packagesPath": "C:\\Users\\alien\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\C#\\ToDo\\ToDo\\obj\\",
+        "outputPath": "E:\\Projects\\C#\\todo-app\\ToDo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alien\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,22 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
